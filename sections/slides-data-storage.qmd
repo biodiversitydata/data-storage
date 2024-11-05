@@ -1,0 +1,192 @@
+# Data storage : reminder of the context and the issues
+
+<!-- page X -->
+
+## Data storage : reminder of the context and the issues
+
+:::: {.columns}
+
+::: {.column .center width=50%}
+![](images/image-Page2016.png){width=80%}
+:::
+
+::: {.column .center width=50%}
+![](images/image-Michener1997.jpg){width=80%}
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column .center width=50%}
+**Heterogeneity (data types, origin, standards) &<br/>Diversity of "objects" to be linked together**[^2]
+:::
+
+::: {.column .center width=50%}
+**Loss of information over time**[^3]
+:::
+
+::::
+
+
+[^2]: [Page (2016)](https://riojournal.com/article/8767)
+[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
+
+
+<!-- page X -->
+
+## Data storage : reminder of the context and the issues
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/image-Powers2018.jpg){width=100%}
+:::
+
+::: {.column width=50%}
+![](images/image-JenkinsReproductibility.png){width=100%}
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width=50%}
+> Computational reproducibility frequently refers to the ability to generate equivalent analytical outcomes from the same data set using the same code and software[^4].
+:::
+
+::: {.column width=50%}
+> [...] all raw data and metadata, code, programming scripts, and bespoke software necessary for fully replicating any analyses that lead to inferences made in a published study[^5].
+:::
+
+::::
+
+[^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
+[^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
+
+
+
+<!-- page X -->
+
+## Data storage : reminder of the context and the issues
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+![](images/image-DIKW_Pyramid.svg){width=100%}
+![](images/image_DataInformationknowledgeHumanities.jpg){width=100%}
+
+:::
+
+::: {.column .center width=33%}
+![](images/image_DataMetadata.png){width=100%}
+:::
+
+::: {.column .center width=33%}
+
+![](images/image-FAIR.png){width=100%}
+![](images/image-datalifecycle.png){width=100%}
+
+:::
+
+::::
+
+<!-- page X -->
+
+## Data storage : Hot *versus* cold data storage
+
+:::: {.columns}
+
+::: {.column width=60%}
+
+
+| Aspect    | Hot Data   | Cold Data    | 
+|:------------|:-----------:|------------:|
+| Access Frequency | Frequently accessed  | Infrequently accessed |
+| Storage Type | High-performance storage (e.g., SSDs, in-memory databases) | Cost-effective storage (e.g., HDDs, magnetic tapes, cloud archives) |
+| Retrieval Speed | Fast retrieval required | Slower retrieval acceptable |
+| Use Case | Real-time transactions, active user sessions, real-time analytics | Historical records, backups, archived files |
+| Cost | Generally higher due to performance requirements  | Generally lower due to slower access speeds |
+| Data management | Requires optimization for speed and efficiency  | Focused on long-term storage and cost-efficiency |
+
+: Table 1: Differences and complementarities between hot and cold data storage. Source [Geeks for Geeks](https://www.geeksforgeeks.org/differences-between-hot-data-and-cold-data-system-design/)
+
+![](images/image-logo-gfg.jpeg){width=30%}
+
+:::
+
+::: {.column width=40%}
+![](images/image-datalifecycle.png){width=100%}
+:::
+
+::::
+
+<!-- page X -->
+
+## Data storage : Hot *versus* cold data storage
+
+<!-- page X -->
+
+# Data storage : Carbon impact
+
+<!-- page X -->
+
+## Data storage : Carbon impact
+
+> "How much energy is used in saving to the cloud? That’s a complicated question. It takes energy to get the data to the data center—miles of fiber optic cables, studded with other fixtures of internet infrastructure that all require power along the way. At the center, your data is stored multiple times on hard disks, and the constant activity of all those disks creates a lot of heat, which necessitates energy-intensive air conditioners to protect the equipment from overheating." *Asked by Mark Williams of Cambridge, U.K. to Justin Adamson - SAGE (Sound Advice for a Green Earth)* Source [Standford Magazine](https://stanfordmag.org/contents/carbon-and-the-cloud)
+
+> "Various studies estimate them to be between 2.3 – 3.7 percent of global CO₂ emissions, which is equivalent to the emissions of the entire aviation industry" Source [MyClimate.Org](https://www.myclimate.org/en/information/faq/faq-detail/what-is-a-digital-carbon-footprint/)
+
+> The ecological dynamics we find ourselves in are not entirely a consequence of design limits, but of human practices and choices — among individuals, communities, corporations, and governments — combined with a deficit of will and imagination to bring about a sustainable Cloud. The Cloud is both cultural and technological. Like any aspect of culture, the Cloud’s trajectory — and its ecological impacts — are not predetermined or unchangeable. Like any aspect of culture, they are mutable."*Steven Gonzalez Monserrate is an anthropologist and a PhD candidate at MIT.* Source [MIT The Reader](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
+
+<!-- page X -->
+
+## Data storage : Carbon impact
+
+:::: {.columns}
+
+::: {.column width=20%}
+
+- [GdR Labo 1.5](https://labos1point5.org/)
+
+- [carbon footprint tool](https://apps.labos1point5.org/ges-1point5)
+
+![](images/image-logo-1point5.png){width=80%}
+:::
+
+::: {.column width=80%}
+
+![](images/image-labo1point5.jpg){width=100%}
+
+:::
+
+::::
+
+## Data storage : Carbon impact
+
+![](images/image-infra-gaiadata.png){width=60% fig-align='center'}
+
+- WP2 : Infrastructure
+  - carbon footprint
+
+**Ideally: bring the calculation closer to the {meta}data and not the other way around**
+
+<!-- page X -->
+
+# Data Storage : resources
+
+## Data Storage : resources
+
+- [The Shift Project](https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf)
+
+- Gaia Data [WP2 présentation](https://www.data-terra.org/content/uploads/2022/04/Gaia-Data-WP2-equipements-et-interconnexions_compressed.pdf) & [website](https://www.gaia-data.org/)
+
+- [Standford magazine](https://stanfordmag.org/contents/carbon-and-the-cloud)
+
+- [MyClimate.Org](https://www.myclimate.org/en/information/faq/faq-detail/what-is-a-digital-carbon-footprint/)
+
+- [MIT - The Reader](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
+
+- [GdR Labo 1.5](https://labos1point5.org/)

@@ -13,22 +13,28 @@
 
 :::: { .columns }
 
-::: { .column .center width="33%"}
+::: { .column .center width="25%"}
 {{< fa code size=2x >}}
 <br>
-Section 1
+Data storage : reminder of the context and the issues
 :::
 
-::: { .column .center width="33%"}
+::: { .column .center width="25%"}
 {{< fa brands github size=2x >}}
 <br>
-Section 2
+Data Storage : hot *versus* cold storage
 :::
 
-::: { .column .center width="33%"}
-{{< fa book size=2x >}}
+::: { .column .center width="25%"}
+{{< fa brands github size=2x >}}
 <br>
 Resources
+:::
+
+::: { .column .center width="25%"}
+{{< fa book size=2x >}}
+<br>
+Data storage : Resources
 :::
 
 ::::
