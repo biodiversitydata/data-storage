@@ -125,10 +125,6 @@
 
 <!-- page X -->
 
-## Data storage : Hot *versus* cold data storage
-
-<!-- page X -->
-
 # Data storage : Carbon impact
 
 <!-- page X -->
