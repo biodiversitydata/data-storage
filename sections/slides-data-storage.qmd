@@ -157,7 +157,7 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 
 ## Data Storage : resources
 
-- [Data repositories from *Ouvrir la science* (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
+- [Data repositories](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
 
 - [The Shift Project](https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf)
 
