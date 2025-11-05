@@ -23,7 +23,6 @@ engine: knitr
 #| child: "sections/data-lifecycle.qmd"
 ```
 
-
 <!-- Insert section 'Table of contents' -->
 
 ```{r}

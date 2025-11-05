@@ -16,25 +16,25 @@
 ::: { .column .center width="25%"}
 {{< fa code size=2x >}}
 <br>
-Data storage : reminder of the context and the issues
+Reminder of the context and the issues
 :::
 
 ::: { .column .center width="25%"}
 {{< fa brands github size=2x >}}
 <br>
-Data Storage : hot *versus* cold storage
+Hot *versus* cold storage
 :::
 
 ::: { .column .center width="25%"}
 {{< fa brands github size=2x >}}
 <br>
-Resources
+Carbon impact
 :::
 
 ::: { .column .center width="25%"}
 {{< fa book size=2x >}}
 <br>
-Data storage : Resources
+Resources
 :::
 
 ::::

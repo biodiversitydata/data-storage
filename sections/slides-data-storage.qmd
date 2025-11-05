@@ -37,12 +37,15 @@
 
 <!-- page X -->
 
+# Data storage : Hot *versus* cold data storage
+
+<!-- page X -->
+
 ## Data storage : Hot *versus* cold data storage
 
 :::: {.columns}
 
 ::: {.column width=60%}
-
 
 | Aspect    | Hot Data   | Cold Data    | 
 |:------------|:-----------:|------------:|
@@ -64,6 +67,52 @@
 :::
 
 ::::
+
+<!-- page X -->
+
+# Data storage : *hot* storage and calculation
+
+<!-- page X -->
+
+## Data storage : *hot* storage and calculation
+
+The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implement an **integrated and distributed platform of services and data** for the observation, modeling and understanding of the Earth system, biodiversity and the environment
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/logoGAIAData.png){width=40% fig-align='center'}
+:::
+
+::: {.column .center width=50%}
+
+![](images/huitsites-gaiadata-1024x642.png){width=100% fig-align='center'}
+:::
+
+::::
+
+<br/>
+
+{{< fa hand-point-right >}} &nbsp;Carbon footprint **Ideally: bring the calculation closer to the {meta}data and not the other way around**
+
+<!-- page X -->
+
+# Data storage : cold storage
+<!-- page X -->
+
+## Data storage : cold storage
+
+| Repositories names    | Supporting by    | thematic, institutional, generic    | disciplinary fields    | Accepted data (keywords)   | embargo    | Persistent identifier    | Volume limit    |
+|:------------|:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
+| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 or 5 GB soon  |
+| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | yes (2 years max.) | DOI  | 5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume  |
+| [SEANOE](https://www.seanoe.org/) | Ifremer | thematic (and institutional) | Oceanography | Georeferenced marine data | yes (2 years max.) | DOI  | 100 GB  |
+| [Data SUD](https://dataverse.ird.fr/) | IRD | institutional | all fields covered by IRD agents | ??? | ???  | DOI  | ???  |
+| [GBIF](https://www.gbif.org/) | the international GBIF community | thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | yes | DOI  | no  |
+| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | generic | all fields | all | yes | DOI  | ???  |
+
+: Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
+
 
 <!-- page X -->
 
@@ -101,44 +150,6 @@
 :::
 
 ::::
-
-<!-- page X -->
-
-## Data storage : Carbon impact
-
-:::: {.columns}
-
-::: {.column width=50%}
-![](images/logoGAIAData.png){width=50% fig-align='center'}
-:::
-
-::: {.column .center width=50%}
-
-![](images/huitsites-gaiadata-1024x642.png){width=80% fig-align='center'}
-:::
-
-::::
-
-<br/>
-
-{{< fa hand-point-right >}} &nbsp;Carbon footprint **Ideally: bring the calculation closer to the {meta}data and not the other way around**
-
-{{< fa hand-point-right >}} &nbsp;For more information: **[GAIA Data project](https://www.gaia-data.org/)** 
-
-<!-- page X -->
-
-## Data storage : cold storage
-
-| Repositories names    | Supporting by    | thematic, institutional, generic    | disciplinary fields    | Accepted data (keywords)   | embargo    | Persistent identifier    | Volume limit    |
-|:------------|:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
-| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 or 5 GB soon  |
-| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | yes (2 years max.) | DOI  | 5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume  |
-| [SEANOE](https://www.seanoe.org/) | Ifremer | thematic (and institutional) | Oceanography | Georeferenced marine data | yes (2 years max.) | DOI  | 100 GB  |
-| [Data SUD](https://dataverse.ird.fr/) | IRD | institutional | all fields covered by IRD agents | ??? | ???  | DOI  | ???  |
-| [GBIF](https://www.gbif.org/) | the international GBIF community | thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | yes | DOI  | no  |
-| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | generic | all fields | all | yes | DOI  | ???  |
-
-: Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
 
 <!-- page X -->
 
