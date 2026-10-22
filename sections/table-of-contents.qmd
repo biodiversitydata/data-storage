@@ -14,26 +14,26 @@
 :::: { .columns }
 
 ::: { .column .center width="25%"}
-{{< fa code size=2x >}}
-<br>
-Reminder of the context and the issues
+{{< fa circle-exclamation size=2x >}}
+<br><br>
+Context and issues
 :::
 
 ::: { .column .center width="25%"}
-{{< fa brands github size=2x >}}
-<br>
+{{< fa server size=2x >}}
+<br><br>
 Hot *versus* cold storage
 :::
 
 ::: { .column .center width="25%"}
-{{< fa brands github size=2x >}}
-<br>
+{{< fa leaf size=2x >}}
+<br><br>
 Carbon impact
 :::
 
 ::: { .column .center width="25%"}
 {{< fa book size=2x >}}
-<br>
+<br><br>
 Resources
 :::
 

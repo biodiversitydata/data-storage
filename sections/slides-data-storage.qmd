@@ -1,12 +1,12 @@
-# Data storage : reminder of the context and the issues
+# Context and issues
 
 <!-- page X -->
 
-## Data storage : reminder of the context and the issues
+## Context and issues
 
 - **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^2]
 - **Loss of information** over time[^3]
-- Toward a better **open science** and **reproducibility** [^4] [^5]
+- Toward a better **open science** and **reproducibility** [^4]^,^ [^5]
 
 :::: {.columns}
 
@@ -37,50 +37,58 @@
 
 <!-- page X -->
 
-# Data storage : Hot *versus* cold data storage
+# Hot *versus* cold data storage
 
 <!-- page X -->
 
-## Data storage : Hot *versus* cold data storage
+## Hot *versus* cold data storage
 
 :::: {.columns}
 
-::: {.column width=60%}
+::: {.column width=70%}
 
 | Aspect    | Hot Data   | Cold Data    | 
-|:------------|:-----------:|------------:|
+|:---------------|:-----------|:------------|
 | Access Frequency | Frequently accessed  | Infrequently accessed |
-| Storage Type | High-performance storage (e.g., SSDs, in-memory databases) | Cost-effective storage (e.g., HDDs, magnetic tapes, cloud archives) |
+| Storage Type | High-performance storage<br>(SSDs, in-memory databases) | Cost-effective storage<br>(HDDs, magnetic tapes, cloud archives) |
 | Retrieval Speed | Fast retrieval required | Slower retrieval acceptable |
 | Use Case | Real-time transactions, active user sessions, real-time analytics | Historical records, backups, archived files |
 | Cost | Generally higher due to performance requirements  | Generally lower due to slower access speeds |
 | Data management | Requires optimization for speed and efficiency  | Focused on long-term storage and cost-efficiency |
 
-: Table 1: Differences and complementarities between hot and cold data storage. Source [Geeks for Geeks](https://www.geeksforgeeks.org/differences-between-hot-data-and-cold-data-system-design/)
-
-![](images/image-logo-gfg.jpeg){width=30%}
+: Table 1: Differences and complementarities between hot and cold data storage[^g4g]
 
 :::
 
-::: {.column width=40%}
-![](images/image-datalifecycle.png){width=100%}
+::: {.column width=10%}
+:::
+
+::: {.column width=20%}
+<br/><br/><br/><br/>
+
+![](images/image-logo-gfg.jpeg){width=80%}
 :::
 
 ::::
 
+
+[^g4g]: Source: [Geeks for Geeks](https://www.geeksforgeeks.org/differences-between-hot-data-and-cold-data-system-design/)
+
 <!-- page X -->
 
-# Data storage : *hot* storage and calculation
+# Hot storage and calculation
 
 <!-- page X -->
 
-## Data storage : *hot* storage and calculation
+## Hot storage and calculation
 
 The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implement an **integrated and distributed platform of services and data** for the observation, modeling and understanding of the Earth system, biodiversity and the environment
 
 :::: {.columns}
 
 ::: {.column width=50%}
+<br/>
+
 ![](images/logoGAIAData.png){width=40% fig-align='center'}
 :::
 
@@ -93,57 +101,83 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 
 <br/>
 
-{{< fa hand-point-right >}} &nbsp;Carbon footprint **Ideally: bring the calculation closer to the {meta}data and not the other way around**
+{{< fa hand-point-right >}} &nbsp;**Carbon footprint**: ideally, bring the calculation closer to the {meta}data and not the other way around
 
 <!-- page X -->
 
-# Data storage : cold storage
+# Cold storage
 <!-- page X -->
 
-## Data storage : cold storage
+## Cold storage
 
-| Repositories names    | Supporting by    | thematic, institutional, generic    | disciplinary fields    | Accepted data (keywords)   | embargo    | Persistent identifier    | Volume limit    |
-|:------------|:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
-| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 or 5 GB soon  |
-| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | yes (2 years max.) | DOI  | 5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume  |
-| [SEANOE](https://www.seanoe.org/) | Ifremer | thematic (and institutional) | Oceanography | Georeferenced marine data | yes (2 years max.) | DOI  | 100 GB  |
-| [Data SUD](https://dataverse.ird.fr/) | IRD | institutional | all fields covered by IRD agents | ??? | ???  | DOI  | ???  |
-| [GBIF](https://www.gbif.org/) | the international GBIF community | thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | yes | DOI  | no  |
-| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | generic | all fields | all | yes | DOI  | ???  |
+| Repository    | Supporting by    | Type    | Disciplinary fields    | Accepted data (keywords)   | Embargo    | Persistent identifier    | Volume limit    |
+|:------------|:-----------:|:-----------:|:-----------|:-----------|:-----------:|:-----------:|:-----------|
+| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | Thematic & Institutional | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | Yes | DOI  |2 GB per data set  |
+| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | Thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | Yes<br/>(< 2 yr) | DOI  | 5 GB per file, 100 GB per deposit  |
+| [SEANOE](https://www.seanoe.org/) | Ifremer | Thematic & Institutional | Oceanography | Georeferenced marine data | Yes<br/>(< 2 yr) | DOI  | 100 GB  |
+| [Data SUD](https://dataverse.ird.fr/) | IRD | Institutional | All fields covered by IRD agents | ??? | ???  | DOI  | ???  |
+| [GBIF](https://www.gbif.org/) | International GBIF community | Thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | Yes | DOI  | no  |
+| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | Generic | All fields | All | Yes | DOI  | ???  |
 
-: Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
+: Table 1: Examples of biodiversity and environmental data repositories[^ouvrir]
 
+[^ouvrir]: Adapted from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
 
-<!-- page X -->
-
-# Data storage : Carbon impact
-
-<!-- page X -->
-
-## Data storage : Carbon impact
-
-> "How much energy is used in saving to the cloud? That’s a complicated question. It takes energy to get the data to the data center—miles of fiber optic cables, studded with other fixtures of internet infrastructure that all require power along the way. At the center, your data is stored multiple times on hard disks, and the constant activity of all those disks creates a lot of heat, which necessitates energy-intensive air conditioners to protect the equipment from overheating." *Asked by Mark Williams of Cambridge, U.K. to Justin Adamson - SAGE (Sound Advice for a Green Earth)* Source [Standford Magazine](https://stanfordmag.org/contents/carbon-and-the-cloud)
-
-> "Various studies estimate them to be between 2.3 – 3.7 percent of global CO₂ emissions, which is equivalent to the emissions of the entire aviation industry" Source [MyClimate.Org](https://www.myclimate.org/en/information/faq/faq-detail/what-is-a-digital-carbon-footprint/)
-
-> The ecological dynamics we find ourselves in are not entirely a consequence of design limits, but of human practices and choices — among individuals, communities, corporations, and governments — combined with a deficit of will and imagination to bring about a sustainable Cloud. The Cloud is both cultural and technological. Like any aspect of culture, the Cloud’s trajectory — and its ecological impacts — are not predetermined or unchangeable. Like any aspect of culture, they are mutable."*Steven Gonzalez Monserrate is an anthropologist and a PhD candidate at MIT.* Source [MIT The Reader](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
 
 <!-- page X -->
 
-## Data storage : Carbon impact
+# Carbon impact
+
+<!-- page X -->
+
+## Carbon impact
+
+> How much energy is used in saving to the cloud? That’s a complicated question. 
+> It takes energy to get the data to the data center—miles of fiber optic cables,
+> studded with other fixtures of internet infrastructure that all require power 
+> along the way. At the center, your data is stored multiple times on hard disks, 
+> and the constant activity of all those disks creates a lot of heat, which 
+> necessitates energy-intensive air conditioners to protect the equipment from 
+> overheating[^standford].
+
+> Various studies estimate them to be between 2.3 and 3.7% of global CO₂ emissions,
+> which is equivalent to the emissions of the entire aviation industry[^myclimate].
+
+> The ecological dynamics we find ourselves in are not entirely a consequence of 
+> design limits, but of human practices and choices — among individuals, 
+> communities, corporations, and governments — combined with a deficit of will and 
+> imagination to bring about a sustainable Cloud. The Cloud is both cultural and 
+> technological. Like any aspect of culture, the Cloud’s trajectory — and its 
+> ecological impacts — are not predetermined or unchangeable. Like any aspect of 
+> culture, they are mutable[^monserrate].
+
+[^standford]: Justin Adamson, SAGE (Sound Advice for a Green Earth). Source: [Standford Magazine](https://stanfordmag.org/contents/carbon-and-the-cloud)
+[^myclimate]: Source: [MyClimate.org](https://www.myclimate.org/en/information/faq/faq-detail/what-is-a-digital-carbon-footprint/)
+[^monserrate]: Steven Gonzalez Monserrate. Source: [MIT The Reader](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
+
+
+<!-- page X -->
+
+
+
+## Carbon impact
 
 :::: {.columns}
 
-::: {.column width=20%}
+::: {.column width=25%}
 
 - [GdR Labo 1.5](https://labos1point5.org/)
 
-- [carbon footprint tool](https://apps.labos1point5.org/ges-1point5)
+- [Carbon Footprint Tool](https://apps.labos1point5.org/ges-1point5)
 
 ![](images/image-logo-1point5.png){width=80%}
 :::
 
-::: {.column width=80%}
+::: {.column width=5%}
+:::
+
+::: {.column width=70%}
+<br><br><br>
 
 ![](images/image-labo1point5.jpg){width=100%}
 
@@ -153,9 +187,9 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 
 <!-- page X -->
 
-# Data Storage : resources
+# Resources
 
-## Data Storage : resources
+## Resources
 
 - [Data repositories](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
 
