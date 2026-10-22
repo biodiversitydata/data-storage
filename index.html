@@ -6,24 +6,30 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+  <meta name="generator" content="quarto-1.10.19">
 
-  <title>Presentation title</title>
+  <title>Data storage</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -32,7 +38,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-7e9783838747aff8f3e1fd2788a0d82a.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-c444b5ab7e5d07b649b9ffd7e725c9a6.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -142,30 +148,30 @@
 <p><img data-src="images/logo-title-slide.png"></p>
 </div><!-- Title slide content --><div class="column information" style="width:68%;">
 <div class="title">
-<p>Biodiversity data: Data storage</p>
+<p>Data storage</p>
 </div>
 <div class="subtitle">
 <p>Hot <em>versus</em> cold data storage</p>
 </div>
 <div class="date">
-<p>November 2025</p>
+<p>October 2026</p>
 </div>
 <div class="columns authors">
 <div class="column author" style="width:32%;">
-<p>Yvan Le Bras<br> <a href="mailto:rdev.nc@gmail.com"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a> <a href="https://github.com/yvanlebras"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0002-8504-068X"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a> <a href="https://scholar.google.fr/citations?user=PVBOyvYAAAAJ&amp;hl"><i class="ai  ai-google-scholar"></i></a></p>
+<p>Yvan Le Bras<br> <a href="mailto:yvan.le-bras@mnhn.fr"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a> <a href="https://github.com/yvanlebras"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0002-8504-068X"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a> <a href="https://scholar.google.fr/citations?user=PVBOyvYAAAAJ&amp;hl"><i class="ai  ai-google-scholar"></i></a></p>
 </div><div class="column author" style="width:32%;">
 <p>Olivier Norvez<br> <a href="mailto:olivier.norvez@data-terra.org"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a> <a href="https://github.com/onorvez"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0001-8734-3265"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a> <a href="https://scholar.google.fr/citations?user=0HfITX4AAAAJ&amp;hl"><i class="ai  ai-google-scholar"></i></a></p>
 </div><div class="column author" style="width:32%;">
-<p>Nicolas Casajus<br> <a href="mailto:rdev.nc@gmail.com"><i class="fa-solid fa-envelope" aria-label="envelope"></i></a> <a href="https://nicolascasajus.fr"><i class="fa-solid fa-globe" aria-label="globe"></i></a> <a href="https://github.com/ahasverus"><i class="fa-brands fa-github" aria-label="github"></i></a> <a href="https://orcid.org/0000-0002-5537-5294"><i class="fa-brands fa-orcid" aria-label="orcid"></i></a> <a href="https://scholar.google.fr/citations?user=n1swa1UAAAAJ"><i class="ai  ai-google-scholar"></i></a></p>
+
 </div><!-- Close {.columns .authors} -->
 </div>
 <div class="columns affiliations">
 <div class="column affiliation" style="width:32%;">
-<p>Animation coordinator <br> <code><span class="citation" data-cites="PNDB">@PNDB</span></code> &nbsp; <a href="https://www.pndb.fr/"><i class="fa-solid fa-globe" aria-label="globe"></i></a> <br> <code><span class="citation" data-cites="DataTerra">@DataTerra</span></code> &nbsp; <a href="https://www.data-terra.org/"><i class="fa-solid fa-globe" aria-label="globe"></i></a></p>
+<p>Scientific and technical coordinator <br> <code><span class="citation" data-cites="PNDB">@PNDB</span></code> &nbsp; <a href="https://www.pndb.fr/"><i class="fa-solid fa-globe" aria-label="globe"></i></a> <br> <code><span class="citation" data-cites="DataTerra">@DataTerra</span></code> &nbsp; <a href="https://www.data-terra.org/"><i class="fa-solid fa-globe" aria-label="globe"></i></a></p>
 </div><div class="column affiliation" style="width:32%;">
-<p>Data engineer <br> <code><span class="citation" data-cites="GBIF-France">@GBIF-France</span></code> &nbsp; <a href="http://www.gbif.fr/"><i class="fa-solid fa-globe" aria-label="globe"></i></a></p>
+<p>Animation coordinator <br> <code><span class="citation" data-cites="PNDB">@PNDB</span></code> &nbsp; <a href="https://www.pndb.fr/"><i class="fa-solid fa-globe" aria-label="globe"></i></a> <br> <code><span class="citation" data-cites="DataTerra">@DataTerra</span></code> &nbsp; <a href="https://www.data-terra.org/"><i class="fa-solid fa-globe" aria-label="globe"></i></a> <br> <code><span class="citation" data-cites="Theia">@Theia</span></code> &nbsp; <a href="https://www.theia-land.fr/"><i class="fa-solid fa-globe" aria-label="globe"></i></a></p>
 </div><div class="column affiliation" style="width:32%;">
-<p>Data scientist <br> <code><span class="citation" data-cites="FRB-CESAB">@FRB-CESAB</span></code> &nbsp; <a href="https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/"><i class="fa-solid fa-globe" aria-label="globe"></i></a> &nbsp; <a href="https://github.com/frbcesab"><i class="fa-brands fa-github" aria-label="github"></i></a></p>
+
 </div><!-- Close {.columns .affiliations} -->
 </div>
 <!-- Close {.column .information} -->
@@ -204,27 +210,27 @@
 <p><br> <br> <br> <br> <br> <br></p>
 <div class="columns">
 <div class="column center" style="width:25%;">
-<p><i class="fa-solid fa-code fa-2x" aria-label="code"></i> <br> Reminder of the context and the issues</p>
+<p><i class="fa-solid fa-circle-exclamation fa-2x" aria-label="circle-exclamation"></i> <br><br> Context and issues</p>
 </div><div class="column center" style="width:25%;">
-<p><i class="fa-brands fa-github fa-2x" aria-label="github"></i> <br> Hot <em>versus</em> cold storage</p>
+<p><i class="fa-solid fa-server fa-2x" aria-label="server"></i> <br><br> Hot <em>versus</em> cold storage</p>
 </div><div class="column center" style="width:25%;">
-<p><i class="fa-brands fa-github fa-2x" aria-label="github"></i> <br> Carbon impact</p>
+<p><i class="fa-solid fa-leaf fa-2x" aria-label="leaf"></i> <br><br> Carbon impact</p>
 </div><div class="column center" style="width:25%;">
-<p><i class="fa-solid fa-book fa-2x" aria-label="book"></i> <br> Resources</p>
+<p><i class="fa-solid fa-book fa-2x" aria-label="book"></i> <br><br> Resources</p>
 </div></div>
 <!-- Insert section 'Quarto basics' -->
 </section></section>
 <section>
-<section id="data-storage-reminder-of-the-context-and-the-issues" class="title-slide slide level1 center">
-<h1>Data storage : reminder of the context and the issues</h1>
+<section id="context-and-issues" class="title-slide slide level1 center">
+<h1>Context and issues</h1>
 <!-- page X -->
 </section>
-<section id="data-storage-reminder-of-the-context-and-the-issues-1" class="slide level2">
-<h2>Data storage : reminder of the context and the issues</h2>
+<section id="context-and-issues-1" class="slide level2">
+<h2>Context and issues</h2>
 <ul>
 <li><strong>Heterogeneity</strong> (data types, origin, standards) &amp; <strong>diversity</strong> of “objects” to be linked together<sup>1</sup></li>
 <li><strong>Loss of information</strong> over time<sup>2</sup></li>
-<li>Toward a better <strong>open science</strong> and <strong>reproducibility</strong> <sup>3</sup> <sup>4</sup></li>
+<li>Toward a better <strong>open science</strong> and <strong>reproducibility</strong> <sup>3</sup><sup>,</sup> <sup>4</sup></li>
 </ul>
 <div class="columns">
 <div class="column" style="width:33%;">
@@ -237,72 +243,75 @@
 <!-- page X -->
 <aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn2"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li><li id="fn3"><p><a href="https://doi.org/10.1002/eap.1822">Powers &amp; Hampton (2018)</a></p></li><li id="fn4"><p><a href="https://doi.org/10.1002/ece3.9961">Genkins <em>et al.</em> (2016)</a></p></li></ol></aside></section></section>
 <section>
-<section id="data-storage-hot-versus-cold-data-storage" class="title-slide slide level1 center">
-<h1>Data storage : Hot <em>versus</em> cold data storage</h1>
+<section id="hot-versus-cold-data-storage" class="title-slide slide level1 center">
+<h1>Hot <em>versus</em> cold data storage</h1>
 <!-- page X -->
 </section>
-<section id="data-storage-hot-versus-cold-data-storage-1" class="slide level2">
-<h2>Data storage : Hot <em>versus</em> cold data storage</h2>
+<section id="hot-versus-cold-data-storage-1" class="slide level2">
+<h2>Hot <em>versus</em> cold data storage</h2>
 <div class="columns">
-<div class="column" style="width:60%;">
+<div class="column" style="width:70%;">
 <table class="caption-top">
-<caption>Table 1: Differences and complementarities between hot and cold data storage. Source <a href="https://www.geeksforgeeks.org/differences-between-hot-data-and-cold-data-system-design/">Geeks for Geeks</a></caption>
+<caption>Table 1: Differences and complementarities between hot and cold data storage<sup>1</sup></caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Aspect</th>
-<th style="text-align: center;">Hot Data</th>
-<th style="text-align: right;">Cold Data</th>
+<th style="text-align: left;">Hot Data</th>
+<th style="text-align: left;">Cold Data</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Access Frequency</td>
-<td style="text-align: center;">Frequently accessed</td>
-<td style="text-align: right;">Infrequently accessed</td>
+<td style="text-align: left;">Frequently accessed</td>
+<td style="text-align: left;">Infrequently accessed</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Storage Type</td>
-<td style="text-align: center;">High-performance storage (e.g., SSDs, in-memory databases)</td>
-<td style="text-align: right;">Cost-effective storage (e.g., HDDs, magnetic tapes, cloud archives)</td>
+<td style="text-align: left;">High-performance storage<br>(SSDs, in-memory databases)</td>
+<td style="text-align: left;">Cost-effective storage<br>(HDDs, magnetic tapes, cloud archives)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Retrieval Speed</td>
-<td style="text-align: center;">Fast retrieval required</td>
-<td style="text-align: right;">Slower retrieval acceptable</td>
+<td style="text-align: left;">Fast retrieval required</td>
+<td style="text-align: left;">Slower retrieval acceptable</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Use Case</td>
-<td style="text-align: center;">Real-time transactions, active user sessions, real-time analytics</td>
-<td style="text-align: right;">Historical records, backups, archived files</td>
+<td style="text-align: left;">Real-time transactions, active user sessions, real-time analytics</td>
+<td style="text-align: left;">Historical records, backups, archived files</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Cost</td>
-<td style="text-align: center;">Generally higher due to performance requirements</td>
-<td style="text-align: right;">Generally lower due to slower access speeds</td>
+<td style="text-align: left;">Generally higher due to performance requirements</td>
+<td style="text-align: left;">Generally lower due to slower access speeds</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Data management</td>
-<td style="text-align: center;">Requires optimization for speed and efficiency</td>
-<td style="text-align: right;">Focused on long-term storage and cost-efficiency</td>
+<td style="text-align: left;">Requires optimization for speed and efficiency</td>
+<td style="text-align: left;">Focused on long-term storage and cost-efficiency</td>
 </tr>
 </tbody>
 </table>
-<p><img data-src="images/image-logo-gfg.jpeg" style="width:30.0%"></p>
-</div><div class="column" style="width:40%;">
-<p><img data-src="images/image-datalifecycle.png" style="width:100.0%"></p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:20%;">
+<p><br><br><br><br></p>
+<p><img data-src="images/image-logo-gfg.jpeg" style="width:80.0%"></p>
 </div></div>
 <!-- page X -->
-</section></section>
+<aside><ol class="aside-footnotes"><li id="fn5"><p>Source: <a href="https://www.geeksforgeeks.org/differences-between-hot-data-and-cold-data-system-design/">Geeks for Geeks</a></p></li></ol></aside></section></section>
 <section>
-<section id="data-storage-hot-storage-and-calculation" class="title-slide slide level1 center">
-<h1>Data storage : <em>hot</em> storage and calculation</h1>
+<section id="hot-storage-and-calculation" class="title-slide slide level1 center">
+<h1>Hot storage and calculation</h1>
 <!-- page X -->
 </section>
-<section id="data-storage-hot-storage-and-calculation-1" class="slide level2">
-<h2>Data storage : <em>hot</em> storage and calculation</h2>
+<section id="hot-storage-and-calculation-1" class="slide level2">
+<h2>Hot storage and calculation</h2>
 <p>The <a href="https://www.gaia-data.org/">GAIA Data project</a> aims to develop and implement an <strong>integrated and distributed platform of services and data</strong> for the observation, modeling and understanding of the Earth system, biodiversity and the environment</p>
 <div class="columns">
 <div class="column" style="width:50%;">
+<p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="images/logoGAIAData.png" class="quarto-figure quarto-figure-center" style="width:40.0%"></p>
@@ -316,134 +325,137 @@
 </div>
 </div></div>
 <p><br></p>
-<p><i class="fa-solid fa-hand-point-right" aria-label="hand-point-right"></i> &nbsp;Carbon footprint <strong>Ideally: bring the calculation closer to the {meta}data and not the other way around</strong></p>
+<p><i class="fa-solid fa-hand-point-right" aria-label="hand-point-right"></i> &nbsp;<strong>Carbon footprint</strong>: ideally, bring the calculation closer to the {meta}data and not the other way around</p>
 <!-- page X -->
 </section></section>
 <section>
-<section id="data-storage-cold-storage" class="title-slide slide level1 center">
-<h1>Data storage : cold storage</h1>
+<section id="cold-storage" class="title-slide slide level1 center">
+<h1>Cold storage</h1>
 <!-- page X -->
 </section>
-<section id="data-storage-cold-storage-1" class="slide level2">
-<h2>Data storage : cold storage</h2>
+<section id="cold-storage-1" class="slide level2">
+<h2>Cold storage</h2>
 <table class="caption-top">
-<caption>Table 1: Examples of biodiversity and environmental data repositories, from <a href="https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/">Ouvrir la science (2024)</a> and adapted</caption>
+<caption>Table 1: Examples of biodiversity and environmental data repositories<sup>1</sup></caption>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Repositories names</th>
+<th style="text-align: left;">Repository</th>
 <th style="text-align: center;">Supporting by</th>
-<th style="text-align: right;">thematic, institutional, generic</th>
-<th style="text-align: right;">disciplinary fields</th>
-<th style="text-align: right;">Accepted data (keywords)</th>
-<th style="text-align: right;">embargo</th>
-<th style="text-align: right;">Persistent identifier</th>
-<th style="text-align: right;">Volume limit</th>
+<th style="text-align: center;">Type</th>
+<th style="text-align: left;">Disciplinary fields</th>
+<th style="text-align: left;">Accepted data (keywords)</th>
+<th style="text-align: center;">Embargo</th>
+<th style="text-align: center;">Persistent identifier</th>
+<th style="text-align: left;">Volume limit</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://www.indores.fr/">InDoRES</a></td>
 <td style="text-align: center;">CNRS-Ecology, MNHN</td>
-<td style="text-align: right;">thematic ( and institutional)</td>
-<td style="text-align: right;">Ecology, Environment, Bio-archaeology</td>
-<td style="text-align: right;">Environmental, ecological and geographical data</td>
-<td style="text-align: right;">yes</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">2 GB per data set but planned to increase to 4 or 5 GB soon</td>
+<td style="text-align: center;">Thematic &amp; Institutional</td>
+<td style="text-align: left;">Ecology, Environment, Bio-archaeology</td>
+<td style="text-align: left;">Environmental, ecological and geographical data</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">2 GB per data set</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://www.easydata.earth/">EaSy Data</a></td>
 <td style="text-align: center;">Data Terra, BRGM</td>
-<td style="text-align: right;">thematic</td>
-<td style="text-align: right;">Earth and Environmental Sciences</td>
-<td style="text-align: right;">Long tail data from the earth system and environment (example: project issues)</td>
-<td style="text-align: right;">yes (2 years max.)</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume</td>
+<td style="text-align: center;">Thematic</td>
+<td style="text-align: left;">Earth and Environmental Sciences</td>
+<td style="text-align: left;">Long tail data from the earth system and environment (example: project issues)</td>
+<td style="text-align: center;">Yes<br>(&lt; 2 yr)</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">5 GB per file, 100 GB per deposit</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://www.seanoe.org/">SEANOE</a></td>
 <td style="text-align: center;">Ifremer</td>
-<td style="text-align: right;">thematic (and institutional)</td>
-<td style="text-align: right;">Oceanography</td>
-<td style="text-align: right;">Georeferenced marine data</td>
-<td style="text-align: right;">yes (2 years max.)</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">100 GB</td>
+<td style="text-align: center;">Thematic &amp; Institutional</td>
+<td style="text-align: left;">Oceanography</td>
+<td style="text-align: left;">Georeferenced marine data</td>
+<td style="text-align: center;">Yes<br>(&lt; 2 yr)</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">100 GB</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://dataverse.ird.fr/">Data SUD</a></td>
 <td style="text-align: center;">IRD</td>
-<td style="text-align: right;">institutional</td>
-<td style="text-align: right;">all fields covered by IRD agents</td>
-<td style="text-align: right;">???</td>
-<td style="text-align: right;">???</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">???</td>
+<td style="text-align: center;">Institutional</td>
+<td style="text-align: left;">All fields covered by IRD agents</td>
+<td style="text-align: left;">???</td>
+<td style="text-align: center;">???</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">???</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://www.gbif.org/">GBIF</a></td>
-<td style="text-align: center;">the international GBIF community</td>
-<td style="text-align: right;">thematic</td>
-<td style="text-align: right;">Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems</td>
-<td style="text-align: right;">Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards.</td>
-<td style="text-align: right;">yes</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">no</td>
+<td style="text-align: center;">International GBIF community</td>
+<td style="text-align: center;">Thematic</td>
+<td style="text-align: left;">Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems</td>
+<td style="text-align: left;">Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards.</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">no</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv">Recherche Data Gouv</a></td>
 <td style="text-align: center;">Recherche Data Gouv</td>
-<td style="text-align: right;">generic</td>
-<td style="text-align: right;">all fields</td>
-<td style="text-align: right;">all</td>
-<td style="text-align: right;">yes</td>
-<td style="text-align: right;">DOI</td>
-<td style="text-align: right;">???</td>
+<td style="text-align: center;">Generic</td>
+<td style="text-align: left;">All fields</td>
+<td style="text-align: left;">All</td>
+<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">DOI</td>
+<td style="text-align: left;">???</td>
 </tr>
 </tbody>
 </table>
 <!-- page X -->
-</section></section>
+<aside><ol class="aside-footnotes"><li id="fn6"><p>Adapted from <a href="https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/">Ouvrir la science (2024)</a></p></li></ol></aside></section></section>
 <section>
-<section id="data-storage-carbon-impact" class="title-slide slide level1 center">
-<h1>Data storage : Carbon impact</h1>
+<section id="carbon-impact" class="title-slide slide level1 center">
+<h1>Carbon impact</h1>
 <!-- page X -->
 </section>
-<section id="data-storage-carbon-impact-1" class="slide level2">
-<h2>Data storage : Carbon impact</h2>
+<section id="carbon-impact-1" class="slide level2">
+<h2>Carbon impact</h2>
 <blockquote>
-<p>“How much energy is used in saving to the cloud? That’s a complicated question. It takes energy to get the data to the data center—miles of fiber optic cables, studded with other fixtures of internet infrastructure that all require power along the way. At the center, your data is stored multiple times on hard disks, and the constant activity of all those disks creates a lot of heat, which necessitates energy-intensive air conditioners to protect the equipment from overheating.” <em>Asked by Mark Williams of Cambridge, U.K. to Justin Adamson - SAGE (Sound Advice for a Green Earth)</em> Source <a href="https://stanfordmag.org/contents/carbon-and-the-cloud">Standford Magazine</a></p>
+<p>How much energy is used in saving to the cloud? That’s a complicated question. It takes energy to get the data to the data center—miles of fiber optic cables, studded with other fixtures of internet infrastructure that all require power along the way. At the center, your data is stored multiple times on hard disks, and the constant activity of all those disks creates a lot of heat, which necessitates energy-intensive air conditioners to protect the equipment from overheating<sup>1</sup>.</p>
 </blockquote>
 <blockquote>
-<p>“Various studies estimate them to be between 2.3 – 3.7 percent of global CO₂ emissions, which is equivalent to the emissions of the entire aviation industry” Source <a href="https://www.myclimate.org/en/information/faq/faq-detail/what-is-a-digital-carbon-footprint/">MyClimate.Org</a></p>
+<p>Various studies estimate them to be between 2.3 and 3.7% of global CO₂ emissions, which is equivalent to the emissions of the entire aviation industry<sup>2</sup>.</p>
 </blockquote>
 <blockquote>
-<p>The ecological dynamics we find ourselves in are not entirely a consequence of design limits, but of human practices and choices — among individuals, communities, corporations, and governments — combined with a deficit of will and imagination to bring about a sustainable Cloud. The Cloud is both cultural and technological. Like any aspect of culture, the Cloud’s trajectory — and its ecological impacts — are not predetermined or unchangeable. Like any aspect of culture, they are mutable.”<em>Steven Gonzalez Monserrate is an anthropologist and a PhD candidate at MIT.</em> Source <a href="https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/">MIT The Reader</a></p>
+<p>The ecological dynamics we find ourselves in are not entirely a consequence of design limits, but of human practices and choices — among individuals, communities, corporations, and governments — combined with a deficit of will and imagination to bring about a sustainable Cloud. The Cloud is both cultural and technological. Like any aspect of culture, the Cloud’s trajectory — and its ecological impacts — are not predetermined or unchangeable. Like any aspect of culture, they are mutable<sup>3</sup>.</p>
 </blockquote>
 <!-- page X -->
-</section>
-<section id="data-storage-carbon-impact-2" class="slide level2">
-<h2>Data storage : Carbon impact</h2>
+<aside><ol class="aside-footnotes"><li id="fn7"><p>Justin Adamson, SAGE (Sound Advice for a Green Earth). Source: <a href="https://stanfordmag.org/contents/carbon-and-the-cloud">Standford Magazine</a></p></li><li id="fn8"><p>Source: <a href="https://www.myclimate.org/en/information/faq/faq-detail/what-is-a-digital-carbon-footprint/">MyClimate.org</a></p></li><li id="fn9"><p>Steven Gonzalez Monserrate. Source: <a href="https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/">MIT The Reader</a></p></li></ol></aside></section>
+<section id="carbon-impact-2" class="slide level2">
+<h2>Carbon impact</h2>
 <div class="columns">
-<div class="column" style="width:20%;">
+<div class="column" style="width:25%;">
 <ul>
 <li><p><a href="https://labos1point5.org/">GdR Labo 1.5</a></p></li>
-<li><p><a href="https://apps.labos1point5.org/ges-1point5">carbon footprint tool</a></p></li>
+<li><p><a href="https://apps.labos1point5.org/ges-1point5">Carbon Footprint Tool</a></p></li>
 </ul>
 <p><img data-src="images/image-logo-1point5.png" style="width:80.0%"></p>
-</div><div class="column" style="width:80%;">
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:70%;">
+<p><br><br><br></p>
 <p><img data-src="images/image-labo1point5.jpg" style="width:100.0%"></p>
 </div></div>
 <!-- page X -->
 </section></section>
 <section>
-<section id="data-storage-resources" class="title-slide slide level1 center">
-<h1>Data Storage : resources</h1>
+<section id="resources" class="title-slide slide level1 center">
+<h1>Resources</h1>
 
 </section>
-<section id="data-storage-resources-1" class="slide level2">
-<h2>Data Storage : resources</h2>
+<section id="resources-1" class="slide level2">
+<h2>Resources</h2>
 <ul>
 <li><p><a href="https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/">Data repositories</a></p></li>
 <li><p><a href="https://theshiftproject.org/wp-content/uploads/2019/03/Lean-ICT-Report_The-Shift-Project_2019.pdf">The Shift Project</a></p></li>
