@@ -154,10 +154,13 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 
 <!-- page X -->
 
-# Iced storage
+# Ice storage in France
 
 
-<iframe width="100%" height="680" src="https://doranum.fr/wp-content/uploads/Criteres_de_tri_pour_archivage_definitif_des_donnees/index.html"></iframe>
+<iframe width="50%" height="340" src="https://doranum.fr/wp-content/uploads/Criteres_de_tri_pour_archivage_definitif_des_donnees/index.html"></iframe>
+
+![Source : [DORANum](https://doranum.fr/stockage-archivage/criteres-de-tri-pour-larchivage-definitif-des-donnees-de-la-recherche_10_83195_nva6-3a55/)](images/image-logo-doranum.png){width=20% fig-align='left'}
+
 
 
 <!-- page X -->
