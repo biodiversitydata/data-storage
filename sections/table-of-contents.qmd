@@ -22,7 +22,7 @@ Context and issues
 ::: { .column .center width="25%"}
 {{< fa server size=2x >}}
 <br><br>
-Hot *versus* cold storage
+Hot *vs* warm *vs* cold *vs* ice storage
 :::
 
 ::: { .column .center width="25%"}
