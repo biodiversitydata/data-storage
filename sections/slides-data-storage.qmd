@@ -35,6 +35,13 @@
 [^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
 [^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
 
+
+<!-- page X -->
+
+## Context and issues
+
+![](images/image-Flux_dispositifs_SI.png){width=100%}
+
 <!-- page X -->
 
 # Hot *vs* warm *vs* cold *vs* ice data storage
@@ -152,14 +159,14 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 > studded with other fixtures of internet infrastructure that all require power 
 > along the way. At the center, your data is stored multiple times on hard disks, 
 > and the constant activity of all those disks creates a lot of heat, which 
-> necessitates energy-intensive air conditioners to protect the equipment from 
+> **necessitates energy-intensive air conditioners** to protect the equipment from 
 > overheating[^standford].
 
-> Various studies estimate them to be between 2.3 and 3.7% of global CO₂ emissions,
+> Various studies estimate them to be **between 2.3 and 3.7% of global CO₂ emissions**,
 > which is equivalent to the emissions of the entire aviation industry[^myclimate].
 
 > The ecological dynamics we find ourselves in are not entirely a consequence of 
-> design limits, but of human practices and choices — among individuals, 
+> design limits, but of **human practices and choices** — among individuals, 
 > communities, corporations, and governments — combined with a deficit of will and 
 > imagination to bring about a sustainable Cloud. The Cloud is both cultural and 
 > technological. Like any aspect of culture, the Cloud’s trajectory — and its 
