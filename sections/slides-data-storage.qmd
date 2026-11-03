@@ -71,6 +71,7 @@
 
 ::::
 
+> Hot data and Cold data serve different purposes in data management. Hot data is important for applications requiring fast access and real time processing, but it comes at a higher cost. Cold data, on the other hand, is used for long-term storage and is less costly but slower to access[^g4g].
 
 [^g4g]: Source: [Geeks for Geeks](https://www.geeksforgeeks.org/differences-between-hot-data-and-cold-data-system-design/)
 
@@ -122,6 +123,35 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 : Table 1: Examples of biodiversity and environmental data repositories[^ouvrir]
 
 [^ouvrir]: Adapted from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
+
+
+<!-- page X -->
+
+## Cold storage
+
+:::: {.columns}
+
+::: {.column width=50%}
+> When a highly dangerous fungus escapes from a secret laboratory, a former bioterrorism agent is called back into action. Alongside two young employees, he must confront an invisible and out-of-control threat[^coldstorage]
+
+
+![](images/image-logo-imdb.jpg){width=100% fig-align='center'}
+![](images/image-coldstorage-movie2.png){width=100% fig-align='center'}
+:::
+
+::: {.column width=50%}
+![](images/image-coldstorage-movie.png){width=60% fig-align='center'}
+:::
+::::
+
+[^coldstorage]: [Cold Storage](https://www.imdb.com/title/tt8879928/)
+
+<!-- page X -->
+
+# Iced storage
+
+
+
 
 
 <!-- page X -->
