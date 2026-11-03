@@ -37,11 +37,17 @@
 
 <!-- page X -->
 
-# Hot *versus* cold data storage
+# Hot *versus* warm *versus* cold data storage
 
 <!-- page X -->
 
-## Hot *versus* cold data storage
+## Hot *versus* warm *versus* cold data storage
+
+![Source : [toptechbytes.in](https://toptechbytes.in)](images/image-cold-warm-hot.png){width=80%}
+
+<!-- page X -->
+
+## Hot *versus* warm *versus* cold data storage
 
 :::: {.columns}
 
@@ -151,7 +157,7 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 # Iced storage
 
 
-
+<iframe width="100%" height="680" src="https://doranum.fr/wp-content/uploads/Criteres_de_tri_pour_archivage_definitif_des_donnees/index.html"></iframe>
 
 
 <!-- page X -->
