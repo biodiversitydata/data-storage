@@ -37,17 +37,17 @@
 
 <!-- page X -->
 
-# Hot *versus* warm *versus* cold data storage
+# Hot *vs* warm *vs* cold *vs* ice data storage
 
 <!-- page X -->
 
-## Hot *versus* warm *versus* cold data storage
+## Hot *vs* warm *vs* cold *vs* ice data storage
 
 ![Source : [toptechbytes.in](https://toptechbytes.in)](images/image-cold-warm-hot.png){width=80%}
 
 <!-- page X -->
 
-## Hot *versus* warm *versus* cold data storage
+## Hot *vs* warm *vs* cold *vs* ice data storage
 
 :::: {.columns}
 
@@ -83,6 +83,35 @@
 
 <!-- page X -->
 
+# Cold storage
+<!-- page X -->
+
+## Cold storage
+
+| Repository    | Supporting by    | Type    | Disciplinary fields    | Accepted data (keywords)   | Embargo    | Persistent identifier    | Volume limit    |
+|:------------|:-----------:|:-----------:|:-----------|:-----------|:-----------:|:-----------:|:-----------|
+| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | Thematic & Institutional | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | Yes | DOI  |2 GB per data set  |
+| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | Thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | Yes<br/>(< 2 yr) | DOI  | 5 GB per file, 100 GB per deposit  |
+| [SEANOE](https://www.seanoe.org/) | Ifremer | Thematic & Institutional | Oceanography | Georeferenced marine data | Yes<br/>(< 2 yr) | DOI  | 100 GB  |
+| [Data SUD](https://dataverse.ird.fr/) | IRD | Institutional | All fields covered by IRD agents | ??? | ???  | DOI  | ???  |
+| [GBIF](https://www.gbif.org/) | International GBIF community | Thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | Yes | DOI  | no  |
+| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | Generic | All fields | All | Yes | DOI  | ???  |
+
+: Table 1: Examples of biodiversity and environmental data repositories[^ouvrir]
+
+[^ouvrir]: Adapted from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
+
+
+<!-- page X -->
+
+# Ice storage in France
+
+<iframe width="50%" height="340" src="https://doranum.fr/wp-content/uploads/Criteres_de_tri_pour_archivage_definitif_des_donnees/index.html"></iframe>
+
+![Source : [DORANum](https://doranum.fr/stockage-archivage/criteres-de-tri-pour-larchivage-definitif-des-donnees-de-la-recherche_10_83195_nva6-3a55/)](images/image-logo-doranum.png){width=20% fig-align='center'}
+
+<!-- page X -->
+
 # Hot storage and calculation
 
 <!-- page X -->
@@ -109,59 +138,6 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 <br/>
 
 {{< fa hand-point-right >}} &nbsp;**Carbon footprint**: ideally, bring the calculation closer to the {meta}data and not the other way around
-
-<!-- page X -->
-
-# Cold storage
-<!-- page X -->
-
-## Cold storage
-
-| Repository    | Supporting by    | Type    | Disciplinary fields    | Accepted data (keywords)   | Embargo    | Persistent identifier    | Volume limit    |
-|:------------|:-----------:|:-----------:|:-----------|:-----------|:-----------:|:-----------:|:-----------|
-| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | Thematic & Institutional | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | Yes | DOI  |2 GB per data set  |
-| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | Thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | Yes<br/>(< 2 yr) | DOI  | 5 GB per file, 100 GB per deposit  |
-| [SEANOE](https://www.seanoe.org/) | Ifremer | Thematic & Institutional | Oceanography | Georeferenced marine data | Yes<br/>(< 2 yr) | DOI  | 100 GB  |
-| [Data SUD](https://dataverse.ird.fr/) | IRD | Institutional | All fields covered by IRD agents | ??? | ???  | DOI  | ???  |
-| [GBIF](https://www.gbif.org/) | International GBIF community | Thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | Yes | DOI  | no  |
-| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | Generic | All fields | All | Yes | DOI  | ???  |
-
-: Table 1: Examples of biodiversity and environmental data repositories[^ouvrir]
-
-[^ouvrir]: Adapted from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
-
-
-<!-- page X -->
-
-## Cold storage
-
-:::: {.columns}
-
-::: {.column width=50%}
-> When a highly dangerous fungus escapes from a secret laboratory, a former bioterrorism agent is called back into action. Alongside two young employees, he must confront an invisible and out-of-control threat[^coldstorage]
-
-
-![](images/image-logo-imdb.jpg){width=100% fig-align='center'}
-![](images/image-coldstorage-movie2.png){width=100% fig-align='center'}
-:::
-
-::: {.column width=50%}
-![](images/image-coldstorage-movie.png){width=60% fig-align='center'}
-:::
-::::
-
-[^coldstorage]: [Cold Storage](https://www.imdb.com/title/tt8879928/)
-
-<!-- page X -->
-
-# Ice storage in France
-
-
-<iframe width="50%" height="340" src="https://doranum.fr/wp-content/uploads/Criteres_de_tri_pour_archivage_definitif_des_donnees/index.html"></iframe>
-
-![Source : [DORANum](https://doranum.fr/stockage-archivage/criteres-de-tri-pour-larchivage-definitif-des-donnees-de-la-recherche_10_83195_nva6-3a55/)](images/image-logo-doranum.png){width=20% fig-align='center'}
-
-
 
 <!-- page X -->
 
@@ -243,3 +219,26 @@ The [GAIA Data project](https://www.gaia-data.org/) aims to develop and implemen
 - [MIT - The Reader](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/)
 
 - [GdR Labo 1.5](https://labos1point5.org/)
+
+
+<!-- page X -->
+
+## Cold storage : *bonus*
+
+:::: {.columns}
+
+::: {.column width=50%}
+> When a highly dangerous fungus escapes from a secret laboratory, a former bioterrorism agent is called back into action. Alongside two young employees, he must confront an invisible and out-of-control threat[^coldstorage]
+
+
+![](images/image-logo-imdb.jpg){width=100% fig-align='center'}
+![](images/image-coldstorage-movie2.png){width=100% fig-align='center'}
+:::
+
+::: {.column width=50%}
+![](images/image-coldstorage-movie.png){width=60% fig-align='center'}
+:::
+::::
+
+[^coldstorage]: [Cold Storage](https://www.imdb.com/title/tt8879928/)
+
