@@ -15,7 +15,7 @@ Data storage
 :::
 
 ::: {.subtitle}
-Hot *versus* cold data storage
+Hot, warm, cold and ice data storage
 :::
 
 ::: {.date}
